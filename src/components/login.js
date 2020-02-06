@@ -61,7 +61,7 @@ class LoginComponent extends React.Component {
                       size='lg'
                       style={{ width: '400px' }}
                       type='text'
-                      placeholder='admin'
+                      placeholder='email: hung'
                     />
                   </Col>
                 </Form.Group>
@@ -78,7 +78,7 @@ class LoginComponent extends React.Component {
                       size='lg'
                       style={{ width: '400px' }}
                       type='password'
-                      placeholder='Password'
+                      placeholder='Password: hung'
                     />
                   </Col>
                 </Form.Group>
