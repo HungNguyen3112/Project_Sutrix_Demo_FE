@@ -1,3 +1,4 @@
+// Author Nguyen Thanh Hung
 import React from 'react';
 import { Dropdown } from 'react-bootstrap';
 import { connect } from 'react-redux';
@@ -29,7 +30,7 @@ class Header extends React.Component {
             {isLogin ? (
               <td>
                 <Link
-                  to={this.props.isAddStaff ? '/filterResult' : '/staffinfo'}
+                  to={this.props.isAddStaff ? '/filterstaff' : '/staffinfo'}
                   onClick={this.onComeBack}
                 >
                   <i
